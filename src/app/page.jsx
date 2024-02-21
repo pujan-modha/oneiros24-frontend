@@ -51,12 +51,12 @@ export default function Home() {
                 className="w-[56vw] md:w-[48vw] m-auto"
               />
             </div>
-            <div className="text-center md:text-center text-lg md:text-base m-auto leading-6 w-[90vw] md:w-[40vw] text-[#90212E]">
+            <div className="text-center md:text-center m-auto leading-6 w-[90vw] md:w-[40vw] text-[#90212E]">
               <p>{`Oneiros is not just the annual cultural fest of Manipal University Jaipur but a thread of emotions, memories, and boundless creativity which binds people. This 'Teen Din ka Safar' is the place where people experience three power packed days of passionate competitions, fun games and activities, events of renowned artists, electrifying concerts and the cultural diversity of Jaipur. Over the years that Oneiros has established its legacy in, it has served host to artists like King, Darshan Raval. All in all, Oneiros is a testament to the indomitable spirit of exploration and self-expression, etching lasting memories in the hearts of all who partake in its magic.`}</p>
             </div>
           </div>
         </div>
-        <div className="-mt-[25vh] md:-mt-[10vh]">
+        <div className="-mt-[15vh] md:-mt-[10vh]">
           <div className="bg-gate bg-contain pt-[15vh] md:pt-[40vh]">
             <p className="text-white text-center text-5xl md:text-7xl font-black">
               EVENTS
