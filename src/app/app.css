@@ -1,0 +1,9 @@
+.bg-camels {
+    background-image: url("../assets/camels.png");
+    /* background-size: cover; */
+  }
+  
+  .bg-gate {
+    background-image: url("../assets/gate.png"), url("../assets/grid.png");
+    background-repeat: no-repeat, repeat;
+  }

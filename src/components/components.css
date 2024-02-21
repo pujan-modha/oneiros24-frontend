@@ -1,0 +1,9 @@
+.text-shadow {
+  text-shadow: -1.5px 1.5px #ffffff;
+}
+
+.ribbon {
+  background-image: url("../assets/ribbon.png");
+  background-repeat: repeat-x;
+  background-size: 150px;
+}
