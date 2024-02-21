@@ -20,7 +20,7 @@ export default function Header() {
                 <Link href="/">SCHEDULE</Link>
                 <Link href="/">CAMPUS AMABASSADOR</Link>
               </div>
-              <div className="col-span-1">
+              <div className="col-span-1 drop-shadow-md">
                 <Link href="/">
                   <Image src={Ono} alt="Oneiros'24" className="w-20" />
                 </Link>
@@ -33,7 +33,7 @@ export default function Header() {
             </div>
           </div>
           <div className="flex md:hidden items-center">
-            <Link href="/" className="mr-auto">
+            <Link href="/" className="mr-auto drop-shadow-md">
               <Image src={Ono} alt="Oneiros'24" className="w-16" />
             </Link>
             <div className="ml-auto text-right">
