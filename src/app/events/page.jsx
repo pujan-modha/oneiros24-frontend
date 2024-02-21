@@ -30,7 +30,7 @@ export default function Events() {
       <div className="w-full h-full bg-[#fbedb6]">
         <nav className="hidden -translate-y-1.5 fixed h-full w-1/4 font-Montserrat text-center bg-[#FBEDB6] text-[#90212E] md:flex flex-col items-start pl-10 overflow-y-scroll pb-72 ">
           <div className="w-24 border-b-[1px] border-b-[#90212E]">
-            <h2 className=" pt-10 font-extrabold font-stolzl text-[#90212E] text-left tracking-widest">
+            <h2 className="pt-10 font-extrabold text-[#90212E] text-left tracking-widest">
               MAJOR EVENTS
             </h2>
           </div>
@@ -67,10 +67,10 @@ export default function Events() {
           id="blueScroll"
         >
           <div className=" text-[#90212E] mr-auto ml-5 md:ml-20">
-            <h2 className="font-stolzl text-[#90212E] text-2xl md:text-5xl pb-5">
+            <h2 className="font-bold underline text-[#90212E] text-2xl md:text-5xl pb-5">
               MAJOR EVENTS
             </h2>
-            <h4 className="text-[#90212E] pb-6">6 Events</h4>
+            <h4 className="text-[#90212E] italic text-2xl pb-6">6 Events</h4>
             <div className="w-full ">
               {majorEvents.map((majorEvent, _i) => (
                 <div
@@ -86,15 +86,17 @@ export default function Events() {
                     />
                   </div>
                   <div className="flex flex-col items-start pl-5 md:pr-40 justify-between w-full">
-                    <h2 className="font-stolzl text-2xl md:text-5xl uppercase">
+                    <h2 className="font-black text-2xl md:text-5xl uppercase">
                       {majorEvent.name}
                     </h2>
-                    <h2 className="text-sm md:text-base">
+                    <h2 className="text-sm italic md:text-base">
                       Event by{" "}
                       <span className="font-bold">{majorEvent.eventby}</span>
                     </h2>
-                    <h4 className="text-[#90212E]">{majorEvent.description}</h4>
-                    <div className="text-accent text-2xl md:text-5xl font-stolzl">
+                    <h4 className="text-[#90212E] font-light">
+                      {majorEvent.description}
+                    </h4>
+                    <div className="text-accent font-semibold text-2xl md:text-5xl font-stolzl">
                       {majorEvent.date}
                     </div>
                     <div className="text-[#90212E] text-lg md:text-3xl font-stolzl">
@@ -127,15 +129,15 @@ export default function Events() {
             </div>
           </div>
           <div className=" text-[#90212E] mr-auto ml-5 md:ml-20">
-            <h2 className="font-stolzl text-[#90212E] text-2xl md:text-5xl pb-5">
+            <h2 className="font-bold underline text-[#90212E] text-2xl md:text-5xl pb-5">
               MINOR EVENTS
             </h2>
-            <h4 className="text-[#90212E]">40+ Events</h4>
+            <h4 className="text-[#90212E] text-2xl italic">40+ Events</h4>
             <div className="float-right pt-10">
               {minorevents.payload.map((minorevent, _i) => (
                 <div key={_i}>
                   <p
-                    className="text-4xl md:w-3/4 place-self-center font-Montserrat uppercase font-semibold ml-8"
+                    className="text-4xl font-bold md:w-3/4 place-self-center font-Montserrat uppercase  ml-8"
                     id={`${minorevent.name}${_i}`}
                   >
                     {minorevent.name}
